@@ -23,12 +23,12 @@ makeCacheMatrix <- function(x = matrix()) {
         # Get the matrix
         get <- function() x
         
-        # Set the inverse
+        # Set the inverse matrix
         setinvrs <- function(inverse) invrs <<- inverse
-        # Get the inverse
+        # Get the inverse matrix 
         getinvrs <- function() invrs
         
-        # Return the matrix 
+        # Return the matrix functions
         list(set = set, get = get, setinvrs = setinvrs, getinvrs = getinvrs)
 }
 
