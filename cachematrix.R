@@ -41,7 +41,7 @@ cacheSolve <- function(x, ...) {
         
         # If the inverse is already calculated, return it
         if (!is.null(invrs)) {
-                print("fetching cached data")
+                print("fetched cached result")
                 return(invrs)
         }
         
